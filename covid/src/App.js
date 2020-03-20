@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 
+// components
+import PaymentButton from './components/PaymentButton'
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header className="App App-header">
         <img src="crc_logo.png" className="App-logo" alt="logo" />
         <a
           className="App-link"
@@ -15,6 +18,9 @@ function App() {
           Join The Discord
         </a>
       </header>
+      <div style={{ paddingLeft: '80px', paddingRight: '50px' }}>
+        <PaymentButton />
+      </div>
     </div>
   );
 }

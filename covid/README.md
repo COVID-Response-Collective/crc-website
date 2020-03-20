@@ -1,3 +1,19 @@
+# COVID Website Features
+
+## Brainstorm from Ginny
+1. Landing and About page
+2. Donate paypal functions
+3. Connect to community here - link to discord
+4. Request resources - both civilian and official entity can make requests
+5. Connect Public Safety Authorities to resource requests-- Discord Bot ? 
+6. Connect new users to channels, based on skillsets and location
+- Sorting questionnaire:  I'm here to (get information) (I need help) (I want to help) 
+- Select my regions
+-Select my skillsets
+7. Auto sort Health Status of personal health/location to real-time GIS of OR/WA maps
+8. Create a ledger of requests, write to database
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
