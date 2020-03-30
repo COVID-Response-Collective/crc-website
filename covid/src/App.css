@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: linear-gradient(indigo, navy);
 }
 
 .App-logo {
@@ -23,3 +24,43 @@
   color: #61dafb;
 }
 
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.error-input {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+button {
+  background: orange;
+  font-size: 1.3rem;
+  margin: 1em;
+  padding: 0.2em 0.5em;
+}
+
+input {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.25em;
+  margin-top: 0.5em;
+  border: 3px solid black;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.25em;
+  margin-top: 0.5em;
+  border: 3px solid black;
+}
+
+.error-text {
+  margin: 0.25em 0 0 0;
+  padding: 0;
+  color: red;
+  font-style: bold;
+  font-size: 1.2rem;
+}

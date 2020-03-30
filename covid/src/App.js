@@ -3,6 +3,7 @@ import './App.css';
 
 // components
 import PaymentButton from './components/PaymentButton'
+import ContactForm from './components/ContactForm'
 
 function App() {
   return (
@@ -17,8 +18,16 @@ function App() {
         >
           Join The Discord
         </a>
+        <a
+          className="App-link"
+          href="mailto:crc@gmail.com?Subject=Hello%20I'd%20like%20to%20help"
+          target="_top"
+        >
+          Email Us
+        </a>
       </header>
       <div style={{ paddingLeft: '80px', paddingRight: '50px' }}>
+        <ContactForm />
         <PaymentButton />
       </div>
     </div>
