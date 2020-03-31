@@ -4,7 +4,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding: 2em;
+  position: fixed;
+  box-shadow: 0 5px 5px grey;
+  background-color: white;
+  z-index: 10;
 }
 
 .Header a {
@@ -14,7 +18,7 @@
 }
 
 .HeaderLeft {
-  padding-left: 10px;
+  align-self: flex-start;
 }
 
 .HeaderHeart {
@@ -24,5 +28,5 @@
 
 .HeaderRight {
   align-self: flex-end;
-  padding-right: 10px;
+  padding-right: 3em; 
 }
