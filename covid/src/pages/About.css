@@ -1,0 +1,17 @@
+.About {
+  text-align: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.About-logo {
+  padding-top: 80px;
+  height: 156px;
+  width: 156px;
+}
+
+.About-Big {
+  font: bold 80px/159px Roboto;
+}
+
+
