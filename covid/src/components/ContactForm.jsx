@@ -18,33 +18,33 @@ const Contact = () => {
     } = useFormValidation(INITIAL_STATE, validateForm);
     return (
         <div className="container">
-        <h1>Contact Us</h1>
-        <form onSubmit={handleSubmit}>
+          <div className="Hashtag">Contact Us</div>
+          <form onSubmit={handleSubmit}>
             <input
-            className={errors.email && "error-input"}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            name="email"
-            value={values.email}
-            autoComplete="off"
-            placeholder="Your email address"
+              className={errors.email ? "error-input" : "contact-input"}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              name="email"
+              value={values.email}
+              autoComplete="off"
+              placeholder="Your email address"
             />
             {errors.email && <p className="error-text">{errors.email}</p>}
             <textarea rows="4" cols="50"
-            className={errors.content && "error-input"}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            name="content"
-            value={values.content}
-            placeholder="Your info here"
+              className={errors.content ? "error-input" : "contact-input"}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              name="content"
+              value={values.content}
+              placeholder="Your info here"
             />
             {errors.content && <p className="error-text">{errors.content}</p>}
             <div>
-            <button disabled={isSubmitting} type="submit">
+              <button className="SendEmailBtn" disabled={isSubmitting} type="submit">
                 Submit
-            </button>
+              </button>
             </div>
-        </form>
+          </form>
         </div>
     );
 }

@@ -7,6 +7,7 @@ import {
 
 import './App.css';
 import Header from 'components/header/Header';
+import Footer from 'components/footer/Footer';
 import Home from 'pages/Home';
 import Connect from 'pages/Connect';
 import About from 'pages/About';
@@ -19,7 +20,7 @@ function App() {
     <div>
       <header className="App App-header">
       </header>
-    <Router>
+      <Router>
         <Header />
         <div>
           <Switch>
@@ -40,6 +41,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Footer />
       </Router>
     </div>
   )
