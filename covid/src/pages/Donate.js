@@ -1,9 +1,10 @@
 import React from 'react';
+import PaymentButton from '../components/PaymentButton'
 
 function Donate() {
   return (
     <div className="Donate">
-        <div>Donate Page</div>
+      <PaymentButton />
     </div>
   );
 }

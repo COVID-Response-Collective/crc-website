@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+.Hashtag {
+  font: medium Roboto;
+  font-size: 32px;
+}
+
+.Subheader {
+  padding-top: 40px;
+  font: medium Roboto;
+  font-size: 32px;
+}
+
+.Statement {
+  font: regular Roboto;
+  font-size: 20px;
+  color: #707070;
+  text-align: center;
+}
 
 .App-body {
   min-height: 100vh;
