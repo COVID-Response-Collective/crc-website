@@ -104,6 +104,7 @@ textarea {
   width: 20vw;
   font-size: 15pt;
   display: inline-block;
+  text-align: center;
 }
 
 .SendEmailBtn {
@@ -116,4 +117,5 @@ textarea {
   width: 20vw;
   font-size: 12pt;
   display: inline-block;
+  text-align: center;
 }
