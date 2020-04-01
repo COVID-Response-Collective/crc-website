@@ -1,0 +1,9 @@
+.Stats {
+    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+.Stats-Big {
+font: bold 80px/159px Roboto;
+}

@@ -12,12 +12,14 @@ class Header extends Component {
         </span>
         <span className="HeaderRight">
           <Link to="/about">ABOUT</Link>
-          <Link style={{paddingLeft: '10px'}}to="/connect">CONNECT</Link>
+          <Link style={{ paddingLeft: '10px' }} to="/connect">CONNECT</Link>
+          <Link style={{ paddingLeft: '10px' }} to="/stats">STATS</Link>
+
           {/* <Link to="/donate">DONATE</Link>
           <Link to="/help">GET HELP</Link>
           <Link>Español</Link> */}
         </span>
-      </div>  
+      </div>
 
     );
   }
