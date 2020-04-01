@@ -16,6 +16,7 @@ class Header extends Component {
         </span>
         <span className="HeaderRight">
           <Link to="/about" style={{textDecoration: 'none'}}>ABOUT</Link>
+          <Link to="/stats" style={{paddingLeft: '1em', textDecoration: 'none'}}STATS</Link>
           <Link to="/connect" style={{paddingLeft: '1em', textDecoration: 'none'}}>CONNECT</Link>
           {/* <Link to="/donate">DONATE</Link>
           <Link to="/help">GET HELP</Link>
