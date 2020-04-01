@@ -4,20 +4,29 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
+  padding: 2em;
+  position: fixed;
+  box-shadow: 0 5px 5px grey;
+  background-color: white;
+  z-index: 10;
 }
 
 .Header a {
   color: #000000;
-  opacity: 1;  
+  opacity: 1;
   text-decoration: unset;
 }
 
 .HeaderLeft {
-  padding-left: 10px;
+  align-self: flex-start;
+}
+
+.HeaderHeart {
+  height: 1.5em;
+  vertical-align: bottom;
 }
 
 .HeaderRight {
   align-self: flex-end;
-  padding-right: 10px;
+  padding-right: 3em; 
 }

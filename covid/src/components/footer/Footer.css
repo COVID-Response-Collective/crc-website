@@ -1,0 +1,9 @@
+.Footer {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-Social {
+  height: 2em;
+}
