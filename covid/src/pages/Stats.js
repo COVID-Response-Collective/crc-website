@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import { NovelCovid } from 'novelcovid'
-import DataTable from 'react-data-table-component'
-import { columns } from '../utils/statsColumns'
+import React, { useState, useEffect } from 'react';
+import { NovelCovid } from 'novelcovid';
+import DataTable from 'react-data-table-component';
+import { columns } from '../utils/statsColumns';
+import crc_heart from '../assets/images/CRC_HEART_RD_T.svg';
 import './Stats.css';
 
 const track = new NovelCovid()
@@ -27,13 +28,13 @@ const Stats = () => {
 
     return (
         <div className="Stats">
-            <img className="About-logo" src="crc_logo.png" alt="logo" />
-            <div className="Stats-Big">
+            <img className="About-logo" src={crc_heart} alt="logo" />
+            <div className="Title">
                 STATISTICS
             </div>
             <div>
                 <DataTable
-                    title="American States COVID-19 Statistics"
+                    title="U.S. COVID-19 Statistics By State"
                     columns={columns}
                     data={data}
                     theme="dark"

@@ -13,9 +13,8 @@ import Connect from 'pages/Connect';
 import About from 'pages/About';
 import Donate from 'pages/Donate';
 import Help from 'pages/Help';
-import NotFound from 'pages/NotFound'
-import Footer from 'components/footer/Footer'
-import Stats from 'pages/Stats'
+import NotFound from 'pages/NotFound';
+import Stats from 'pages/Stats';
 
 
 function App() {
@@ -50,9 +49,6 @@ function App() {
         </div>
         <Footer />
       </Router>
-      <footer style={{ textAlign: 'center' }}>
-        <Footer />
-      </footer>
     </div >
 
   )
