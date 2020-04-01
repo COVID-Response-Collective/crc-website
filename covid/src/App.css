@@ -1,28 +1,38 @@
 .App {
   text-align: center;
+  max-width: 100%;
 }
 
 .App-logo {
+  padding-top: 8em;
   height: 40vmin;
   pointer-events: none;
 }
 
+.Title {
+  font: bold 3em Roboto;
+  padding-bottom: 1em;
+}
+
 .Hashtag {
   font: medium Roboto;
-  font-size: 32px;
+  font-size: 24pt;
+  font-weight: bold;
 }
 
 .Subheader {
-  padding-top: 40px;
   font: medium Roboto;
-  font-size: 32px;
+  font-size: 18pt;
+  font-weight: bold;
 }
 
 .Statement {
   font: regular Roboto;
-  font-size: 20px;
+  font-size: 15pt;
   color: #707070;
   text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 
 .App-body {
@@ -31,7 +41,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(1em + 2vmin);
   color: black;
 }
 
@@ -40,13 +50,24 @@
 }
 
 .container {
+  width: 50em;
   margin: 0 auto;
-  width: 500px;
 }
 
 .error-input {
-  border: 2px solid red;
-  border-radius: 4px;
+  border: 0.2em solid red;
+  border-radius: 0.4em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.contact-input {
+  border: 0.2em solid black;
+  border-radius: 0.4em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 button {
@@ -60,7 +81,7 @@ input {
   font-size: 1.5rem;
   padding: 0.25em;
   margin-top: 0.5em;
-  border: 3px solid black;
+  border: 0.3em solid black;
 }
 
 textarea {
@@ -68,7 +89,7 @@ textarea {
   font-size: 1.5rem;
   padding: 0.25em;
   margin-top: 0.5em;
-  border: 3px solid black;
+  border: 0.3em solid black;
 }
 
 .error-text {
@@ -77,4 +98,30 @@ textarea {
   color: red;
   font-style: bold;
   font-size: 1.2rem;
+}
+
+.ActionBtn {
+  padding: 0.5em;
+  margin: 1.5em;
+  background-color: #333333;
+  color: white;
+  border-color: #333333;
+  border-radius: 2em;
+  width: 20vw;
+  font-size: 15pt;
+  display: inline-block;
+  text-align: center;
+}
+
+.SendEmailBtn {
+  padding: 0.5em;
+  margin: 1.5em;
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+  border-radius: 2em;
+  width: 20vw;
+  font-size: 15pt;
+  display: inline-block;
+  text-align: center;
 }
