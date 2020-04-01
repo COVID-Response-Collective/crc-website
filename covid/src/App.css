@@ -125,3 +125,21 @@ textarea {
   display: inline-block;
   text-align: center;
 }
+
+.FooterBtn {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-color: #333333;
+  color: white;
+  display: table-cell;
+  text-align: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.FooterBtn:first-child {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+

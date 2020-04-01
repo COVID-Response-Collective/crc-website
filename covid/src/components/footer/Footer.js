@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Footer.css';
 import facebook_logo from '../../assets/images/f_logo_RGB-Blue_1024.png';
+import discord_logo from '../../assets/images/Discord-Logo-White.svg';
+import FA from 'react-fontawesome';
 
 //import Link from '../link/Link';
 //import { Link } from 'react-router-dom';
@@ -11,26 +13,24 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <a
-           className="App-link"
            href="https://discord.gg/A4XqWGA"
            target="_blank"
            rel="noopener noreferrer"
+           className="FooterBtn"
+           style={{backgroundColor: '#2E3133'}}
         >
-           Join The Discord
+          <img src={discord_logo} alt="Footer Discord logo" />
         </a>
         <a href="https://www.facebook.com/COVIDResponseCollective/">
           <img src={facebook_logo} alt="Footer Facebook logo" className="Footer-Social"/>
           {/*<img src={instagram_logo} className="Footer-Social" alt="Footer Instagram logo" />*/}
         </a>
-        <a
-            className="App-link"
-            href="mailto:crc@gmail.com?Subject=Hello%20I'd%20like%20to%20help"
-            target="_top"
-        >
-            Email Us
+        <a className="FooterBtn"
+           href="mailto:crcpnw@gmail.com"
+           target="_top">
+          <FA name="envelope" />
         </a>
       </div>
-
     );
   }
 }
