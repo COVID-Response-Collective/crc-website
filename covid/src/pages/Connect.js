@@ -40,7 +40,7 @@ function Connect() {
           </a>
         </div>
         <div>
-          <div className="Subheader" style={{paddingTop: '1em'}}>Contact Us</div>
+          <div className="Hashtag" style={{paddingTop: '1em'}}>Contact Us</div>
           <a href="mailto:crc@gmail.com?Subject=Hello%20I'd%20like%20to%20help"
             target="_top"
             rel="noopener noreferrer"
@@ -50,19 +50,6 @@ function Connect() {
             </div>
           </a>
         </div>
-
-        {/* <div style={{ paddingLeft: '8em', paddingRight: '8em', paddingTop: '3em', textAlign: 'center' }}>
-          <ContactForm />
-        </div> */}
-        {/*<div style={{paddingTop: '50px', paddingBottom: '50px'}}>
-          <a
-            className="App-link"
-            href="mailto:crc@gmail.com?Subject=Hello%20I'd%20like%20to%20help"
-            target="_top"
-          >
-            Email Us
-          </a>
-        </div>*/}
     </div>
   );
 }
