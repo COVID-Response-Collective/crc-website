@@ -1,0 +1,37 @@
+#!/bin/bash
+set -e
+
+function run_build() {
+	yarn build
+	/app/bin/package.sh
+}
+
+function run_dev() {
+	yarn start
+}
+
+function run_test() {
+	yarn test
+}
+
+
+
+# Expect launch target as first argument
+case "${1}" in
+	build)
+		run_build
+	;;
+
+	dev)
+		run_dev
+	;;
+
+	test)
+		run_test
+	;;
+
+	*)
+		echo "Launch target (first argument to this script) must be 'build', 'dev', or 'test' (got: ${1})" >&2
+		exit 1
+	;;
+esac

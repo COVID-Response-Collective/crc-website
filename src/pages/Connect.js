@@ -1,7 +1,7 @@
 import React from 'react';
 import './Connect.css';
 import crc_heart from '../assets/images/CRC_HEART_RD_T.svg';
-import discord_logo from '../assets/images/Discord-Logo+Wordmark-Color.svg';
+import discord_logo from '../assets/images/Discord-Logo_Wordmark-Color.svg';
 import facebook_logo from '../assets/images/f_logo_RGB-Blue_1024.png';
 
 // components
