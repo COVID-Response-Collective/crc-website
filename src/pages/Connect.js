@@ -31,7 +31,7 @@ function Connect() {
         <hr style={{width: '25%'}}/>
         <div>
           <img src={facebook_logo} className="Social-logo" alt="Facebook logo" />
-          <div className="Subheader">Get involved in our Facebook group.</div>
+          <div className="Subheader" style={{paddingTop: '1em'}}>Get involved in our Facebook group.</div>
           <a href="https://www.facebook.com/COVIDResponseCollective/"
             target="_blank"
             rel="noopener noreferrer"
