@@ -2,8 +2,29 @@
   padding: 2em;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .Footer-Social {
   height: 2em;
+}
+
+.Footer-Discord {
+  width: 24px;
+  padding-top: 5px;
+}
+
+.Footer-Instagram {
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+.Footer-Instagram:before {
+  vertical-align: middle;
+
+}
+
+.Footer-Mail {
+  vertical-align: middle;
+  line-height: 30px;  
 }
