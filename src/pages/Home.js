@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import crc_logo from '../assets/images/CRC_SEAL_RD_WT.svg';
+import crc_logo from '../assets/images/COVIDRC_SEAL_RD_WT.svg';
 
 function Home() {
   return (
