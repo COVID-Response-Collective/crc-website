@@ -16,7 +16,7 @@ RUN \
 WORKDIR /app
 
 # Copy the file from your host to your current location
-COPY package.json package-lock.json /app/
+COPY package.json yarn.lock /app/
 RUN yarn install --frozen-lockfile
 VOLUME /app/node_modules
 
