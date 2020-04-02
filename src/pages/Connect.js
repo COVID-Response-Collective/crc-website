@@ -9,7 +9,7 @@ import ContactForm from '../components/ContactForm'
 
 function Connect() {
   return (
-    <div class="Connect">
+    <div className="Connect">
         <img src={crc_heart} className="Connect-logo" alt="logo" />
         <div className="Title">
           CONNECT
