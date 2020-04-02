@@ -13,21 +13,28 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <a
-           href="https://discord.gg/A4XqWGA"
-           target="_blank"
-           rel="noopener noreferrer"
-           className="FooterBtn"
-           style={{backgroundColor: '#2E3133'}}
-        >
-          <img src={discord_logo} alt="Footer Discord logo" />
+          href="https://discord.gg/A4XqWGA"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="FooterBtn"
+          style={{backgroundColor: '#7289DA'}}>
+          {/*<img src={discord_logo} alt="Footer Discord logo" />*/}
+          <FA name="discord" style={{backgroundColor: 'white'}}/>
         </a>
         <a href="https://www.facebook.com/COVIDResponseCollective/">
-          <img src={facebook_logo} alt="Footer Facebook logo" className="Footer-Social"/>
+          <img src={facebook_logo} alt="Footer Facebook logo" className="Footer-Social" />
           {/*<img src={instagram_logo} className="Footer-Social" alt="Footer Instagram logo" />*/}
         </a>
         <a className="FooterBtn"
-           href="mailto:crcpnw@gmail.com"
-           target="_top">
+          href="mailto:crcpnw@gmail.com"
+          target="_top"
+          style={{backgroundColor: '#CCCCCC', color: 'black'}}>
+          <FA name="instagram" />
+        </a>
+        <a className="FooterBtn"
+          href="mailto:crcpnw@gmail.com"
+          target="_top"
+          style={{backgroundColor: '#0077FF', color: 'white'}}>
           <FA name="envelope" />
         </a>
       </div>

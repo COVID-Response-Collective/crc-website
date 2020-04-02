@@ -143,3 +143,8 @@ textarea {
   margin-bottom: 0.4em;
 }
 
+hr {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 60%;
+}

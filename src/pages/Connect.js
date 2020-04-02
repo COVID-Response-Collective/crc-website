@@ -15,6 +15,7 @@ function Connect() {
           CONNECT
         </div>
         <div className="Subheader">We believe in community.</div>
+        <hr style={{width: '25%'}}/>
         <div>
           <img src={discord_logo} className="Social-logo" alt="Discord logo" />
           <div className="Subheader">Join our team on Discord.</div>
@@ -27,9 +28,10 @@ function Connect() {
             </div>
           </a>
         </div>
+        <hr style={{width: '25%'}}/>
         <div>
           <img src={facebook_logo} className="Social-logo" alt="Facebook logo" />
-          <div className="Subheader" style={{paddingTop: '1em'}}>Get involved in our Facebook group.</div>
+          <div className="Subheader">Get involved in our Facebook group.</div>
           <a href="https://www.facebook.com/COVIDResponseCollective/"
             target="_blank"
             rel="noopener noreferrer"
@@ -39,6 +41,7 @@ function Connect() {
             </div>
           </a>
         </div>
+        <hr style={{width: '25%'}}/>
         <div>
           <div className="Hashtag" style={{paddingTop: '1em'}}>Contact Us</div>
           <a href="mailto:crc@gmail.com?Subject=Hello%20I'd%20like%20to%20help"

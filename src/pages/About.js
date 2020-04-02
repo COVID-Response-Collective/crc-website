@@ -14,7 +14,7 @@ function About() {
         <b>#wereinthistogether</b>
       </div>
       <div>
-        <div className="Subheader" style={{paddingTop: '3em', paddingBottom: '1em'}}>
+        <div className="Subheader" style={{paddingTop: '3em'}}>
           Our Mission
         </div>
         <p className="Statement" style={{textAlign: 'center'}}>
@@ -27,8 +27,9 @@ function About() {
           Let’s get through this.
         </p>
       </div>
+      <hr />
       <div>
-        <div className="Subheader" style={{paddingTop: '3em', paddingBottom: '1em'}}>
+        <div className="Subheader" style={{paddingBottom: '1em'}}>
           Our Values
         </div>
         <p className="Statement" style={{textAlign: 'center'}}>
