@@ -26,7 +26,7 @@ class Footer extends Component {
           {/*<img src={instagram_logo} className="Footer-Social" alt="Footer Instagram logo" />*/}
         </a>
         <a className="FooterBtn"
-          href="mailto:crcpnw@gmail.com"
+          href="https://www.instagram.com/covidresponsecollective/"
           target="_top"
           style={{backgroundColor: '#CCCCCC', color: 'black'}}>
           <FA name="instagram fa-lg" className="Footer-Instagram"/>
