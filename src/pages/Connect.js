@@ -44,7 +44,7 @@ function Connect() {
         <hr style={{width: '25%'}}/>
         <div>
           <div className="Hashtag" style={{paddingTop: '1em'}}>Contact Us</div>
-          <a href="mailto:crc@gmail.com?Subject=Hello%20I'd%20like%20to%20help"
+          <a href="mailto:crcpnw@gmail.com"
             target="_top"
             rel="noopener noreferrer"
             style={{color: 'white'}}>
