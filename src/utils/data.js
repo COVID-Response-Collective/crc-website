@@ -26,20 +26,14 @@ const processState = (state, englishName) => {
         const displayName = `${ENGLISH} (${englishName})`
 
         const confirmedCountRecent = getMostRecentItem(confirmedCount)
-        const confirmedCountTotal = getTotal(confirmedCount)
         const curedCountRecent = getMostRecentItem(curedCount)
-        const curedCountTotal = getTotal(curedCount)
         const deadCountRecent = getMostRecentItem(deadCount)
-        const deadCountTotal = getTotal(deadCount)
 
         const processedCounty = Object.assign({}, {
             ENGLISH: displayName,
             confirmedCount: confirmedCountRecent,
-            confirmedCountTotal,
             curedCount: curedCountRecent,
-            curedCountTotal,
             deadCount: deadCountRecent,
-            deadCountTotal
         })
 
         return processedCounty

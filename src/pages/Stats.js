@@ -97,7 +97,7 @@ const Stats = () => {
             </div>
             <div>
                 <DataTable
-                    title="COVID-19 Statistics Pacific NW Counties"
+                    title="COVID-19 Statistics Pacific NW Counties (as of today)"
                     columns={columns}
                     data={filteredItems}
                     subHeader
