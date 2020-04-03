@@ -44,14 +44,16 @@ function Connect() {
         <hr style={{width: '25%'}}/>
         <div>
           <div className="Hashtag" style={{paddingTop: '1em'}}>Contact Us</div>
-          <a href="mailto:crcpnw@gmail.com"
+          {/*<a href="mailto:crcpnw@gmail.com"
             target="_top"
             rel="noopener noreferrer"
             style={{color: 'white'}}>
             <div className="ActionBtn">
               Email Us
             </div>
-          </a>
+          </a>*/}
+          <div className="Subheader" style={{paddingTop: '1em'}}>Let us know how we can help you<br/>or if you want to help!</div>
+          <div className="Statement" style={{paddingTop: '1em', paddingBottom: '1em'}}>Email us at crcpnw@gmail.com.</div>
         </div>
     </div>
   );

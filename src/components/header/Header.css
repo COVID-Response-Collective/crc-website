@@ -6,9 +6,8 @@
   justify-content: space-between;
   padding: 2em;
   position: fixed;
-  box-shadow: 0 5px 5px grey;
-  background-color: white;
-  z-index: 10;
+  font-weight: bold;
+  /*z-index: 10;*/
 }
 
 .Header a {
