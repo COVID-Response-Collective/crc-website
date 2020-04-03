@@ -9,18 +9,18 @@ class Header extends Component {
     return (
       <div className="Header">
         <span className="HeaderLeft">
-          <Link to="/" style={{textDecoration: 'none'}}>
+          <Link to="/" style={{ textDecoration: 'none' }}>
             <img src={crc_heart} className="HeaderHeart" alt="heart" />
             COVID RESPONSE COLLECTIVE
           </Link>
         </span>
         <span className="HeaderRight">
-          <Link to="/about" style={{textDecoration: 'none'}}>ABOUT</Link>
-          {/*<Link to="/stats" style={{paddingLeft: '1em', textDecoration: 'none'}}>STATS</Link>*/}
-          <Link to="/connect" style={{paddingLeft: '1em', textDecoration: 'none'}}>CONNECT</Link>
+          <Link to="/about" style={{ textDecoration: 'none' }}>ABOUT</Link>
+          <Link to="/stats" style={{ paddingLeft: '1em', textDecoration: 'none' }}>STATS</Link>
+          <Link to="/connect" style={{ paddingLeft: '1em', textDecoration: 'none' }}>CONNECT</Link>
           {/* <Link to="/donate">DONATE</Link>
-          <Link to="/help">GET HELP</Link>
-          <Link>Español</Link> */}
+          <Link to="/help">GET HELP</Link> */}
+          {/* <Link>Español</Link> */}
         </span>
       </div>
 

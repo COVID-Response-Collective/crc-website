@@ -5,7 +5,11 @@ import { columns } from '../utils/statsColumns';
 import crc_heart from '../assets/images/CRC_HEART_RD_T.svg';
 import './Stats.css';
 
+import { processData } from '../utils/data'
+
 const track = new NovelCovid()
+
+const sourceUrl = 'https://raw.githubusercontent.com/stevenliuyi/covid19/master/public/data/all.json'
 
 const Stats = () => {
     const [data, setData] = useState([])
@@ -13,8 +17,11 @@ const Stats = () => {
 
     const queryApi = async () => {
         try {
-            const res = await track.states()
-            setData(res)
+            const res = await fetch(sourceUrl)
+            const json = await res.json()
+            const dataStates = processData(json)
+            // const res = await track.states()
+            // setData(res)
             setPending(false)
         }
         catch (e) {

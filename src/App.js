@@ -35,7 +35,7 @@ function App() {
             <Route path="/connect">
               <Connect />
             </Route>
-            {/*<Route path="/stats">
+            <Route path="/stats">
               <Stats />
             </Route>
             <Route path="/donate">
@@ -43,7 +43,7 @@ function App() {
             </Route>
             <Route path="/help">
               <Help />
-            </Route>*/}
+            </Route>
             <Route component={NotFound} />
           </Switch>
         </div>
