@@ -1,0 +1,9 @@
+.About {
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.About-logo {
+  padding-top: 8em;
+  height: 15em;
+}

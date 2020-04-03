@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  max-width: 100%;
+}
+
+.App-logo {
+  padding-top: 8em;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Title {
+  font: bold 3em Roboto;
+  padding-bottom: 1em;
+}
+
+.Hashtag {
+  font: medium Roboto;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.Subheader {
+  font: medium Roboto;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.Statement {
+  font: regular Roboto;
+  font-size: 15pt;
+  color: #707070;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.App-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1em + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #b20f29;
+}
+
+.container {
+  width: 50em;
+  margin: 0 auto;
+}
+
+.error-input {
+  border: 0.2em solid red;
+  border-radius: 0.4em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.contact-input {
+  border: 0.2em solid black;
+  border-radius: 0.4em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+button {
+  font-size: 1.3rem;
+  margin: 1em;
+  padding: 0.2em 0.5em;
+}
+
+input {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.25em;
+  margin-top: 0.5em;
+  border: 0.3em solid black;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.25em;
+  margin-top: 0.5em;
+  border: 0.3em solid black;
+}
+
+.error-text {
+  margin: 0.25em 0 0 0;
+  padding: 0;
+  color: red;
+  font-style: bold;
+  font-size: 1.2rem;
+}
+
+.ActionBtn {
+  padding: 0.5em;
+  margin: 1.5em;
+  background-color: #333333;
+  color: white;
+  border-color: #333333;
+  border-radius: 2em;
+  width: 20vw;
+  font-size: 15pt;
+  display: inline-block;
+  text-align: center;
+}
+
+.SendEmailBtn {
+  padding: 0.5em;
+  margin: 1.5em;
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+  border-radius: 2em;
+  width: 20vw;
+  font-size: 15pt;
+  display: inline-block;
+  text-align: center;
+}
+
+.FooterBtn {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-color: #333333;
+  color: white;
+  display: table-cell;
+  text-align: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* .FooterBtn:first-child {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+} */
+
+hr {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 60%;
+}

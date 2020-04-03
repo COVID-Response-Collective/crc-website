@@ -1,0 +1,42 @@
+{
+  "name": "crc-website",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "novelcovid": "^1.1.0",
+    "react": "^16.13.0",
+    "react-data-table-component": "^6.3.4",
+    "react-dom": "^16.13.0",
+    "react-fontawesome": "^1.7.1",
+    "react-kawaii": "^0.16.0",
+    "react-paypal-button-v2": "^2.6.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "sass": "^1.26.3",
+    "styled-components": "^5.0.1"
+  },
+  "scripts": {
+    "start": "PORT=3000 react-scripts start",
+    "build": "PORT=3001 react-scripts build",
+    "test": "PORT=3001 react-scripts test --watchAll=false",
+    "eject": "PORT=3001 react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
