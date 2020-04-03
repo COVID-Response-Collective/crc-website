@@ -1,16 +1,16 @@
 export const columns = [
     {
-        name: 'State',
-        selector: 'state',
+        name: 'Name',
+        selector: 'ENGLISH',
         sortable: true,
     },
     {
-        name: 'Cases',
-        selector: 'cases',
+        name: 'Today Confirmed',
+        selector: 'confirmedCount',
         sortable: true,
         conditionalCellStyles: [
             {
-                when: row => row.cases <= 50,
+                when: row => row.confirmedCount <= 10,
                 style: {
                     backgroundColor: 'rgba(63, 195, 128, 0.9)',
                     color: 'white',
@@ -20,17 +20,17 @@ export const columns = [
                 },
             },
             {
-                when: row => row.cases > 50 && row.cases < 1000,
+                when: row => row.confirmedCount > 10 && row.confirmedCount < 100,
                 style: {
                     backgroundColor: 'rgba(248, 148, 6, 0.9)',
                     color: 'white',
                     '&:hover': {
-                        cursor: 'pointer',
+                        cursor: 'not-allowed',
                     },
                 },
             },
             {
-                when: row => row.cases > 1000,
+                when: row => row.confirmedCount > 100,
                 style: {
                     backgroundColor: 'rgba(242, 38, 19, 0.9)',
                     color: 'white',
@@ -42,12 +42,12 @@ export const columns = [
         ],
     },
     {
-        name: 'Deaths',
-        selector: 'deaths',
+        name: 'Total Confirmed',
+        selector: 'confirmedCountTotal',
         sortable: true,
         conditionalCellStyles: [
             {
-                when: row => row.deaths <= 50,
+                when: row => row.confirmedCountTotal <= 10,
                 style: {
                     backgroundColor: 'rgba(63, 195, 128, 0.9)',
                     color: 'white',
@@ -57,17 +57,17 @@ export const columns = [
                 },
             },
             {
-                when: row => row.deaths > 50 && row.deaths < 1000,
+                when: row => row.confirmedCountTotal > 10 && row.confirmedCountTotal < 100,
                 style: {
                     backgroundColor: 'rgba(248, 148, 6, 0.9)',
                     color: 'white',
                     '&:hover': {
-                        cursor: 'pointer',
+                        cursor: 'not-allowed',
                     },
                 },
             },
             {
-                when: row => row.deaths > 1000,
+                when: row => row.confirmedCountTotal > 100,
                 style: {
                     backgroundColor: 'rgba(242, 38, 19, 0.9)',
                     color: 'white',
@@ -79,12 +79,66 @@ export const columns = [
         ],
     },
     {
-        name: `Today's Deaths`,
-        selector: 'todayDeaths',
+        name: 'Today Cured',
+        selector: 'curedCount',
         sortable: true,
         conditionalCellStyles: [
             {
-                when: row => row.todayDeaths < 1,
+                when: row => row.curedCount <= 1,
+                style: {
+                    backgroundColor: 'rgba(242, 38, 19, 0.9)',
+                    color: 'white',
+                    '&:hover': {
+                        cursor: 'pointer',
+                    },
+                },
+            },
+            {
+                when: row => row.curedCount > 1,
+                style: {
+                    backgroundColor: 'rgba(63, 195, 128, 0.9)',
+                    color: 'white',
+                    '&:hover': {
+                        cursor: 'not-allowed',
+                    },
+                },
+            },
+        ],
+    },
+    {
+        name: 'Total Cured',
+        selector: 'curedCountTotal',
+        sortable: true,
+        conditionalCellStyles: [
+            {
+                when: row => row.curedCountTotal <= 1,
+                style: {
+                    backgroundColor: 'rgba(242, 38, 19, 0.9)',
+                    color: 'white',
+                    '&:hover': {
+                        cursor: 'pointer',
+                    },
+                },
+            },
+            {
+                when: row => row.curedCountTotal > 1,
+                style: {
+                    backgroundColor: 'rgba(63, 195, 128, 0.9)',
+                    color: 'white',
+                    '&:hover': {
+                        cursor: 'not-allowed',
+                    },
+                },
+            },
+        ],
+    },
+    {
+        name: 'Today Dead',
+        selector: 'deadCount',
+        sortable: true,
+        conditionalCellStyles: [
+            {
+                when: row => row.deadCount < 1,
                 style: {
                     backgroundColor: 'rgba(63, 195, 128, 0.9)',
                     color: 'white',
@@ -94,7 +148,7 @@ export const columns = [
                 },
             },
             {
-                when: row => row.todayDeaths >= 1,
+                when: row => row.deadCount >= 1,
                 style: {
                     backgroundColor: 'rgba(242, 38, 19, 0.9)',
                     color: 'white',
@@ -106,12 +160,12 @@ export const columns = [
         ],
     },
     {
-        name: `Active`,
-        selector: 'active',
+        name: 'Total Dead',
+        selector: 'deadCountTotal',
         sortable: true,
         conditionalCellStyles: [
             {
-                when: row => row.active <= 50,
+                when: row => row.deadCountTotal < 1,
                 style: {
                     backgroundColor: 'rgba(63, 195, 128, 0.9)',
                     color: 'white',
@@ -121,17 +175,7 @@ export const columns = [
                 },
             },
             {
-                when: row => row.active > 50 && row.active < 1000,
-                style: {
-                    backgroundColor: 'rgba(248, 148, 6, 0.9)',
-                    color: 'white',
-                    '&:hover': {
-                        cursor: 'pointer',
-                    },
-                },
-            },
-            {
-                when: row => row.active > 1000,
+                when: row => row.deadCountTotal >= 1,
                 style: {
                     backgroundColor: 'rgba(242, 38, 19, 0.9)',
                     color: 'white',

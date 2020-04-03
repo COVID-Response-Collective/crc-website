@@ -4,12 +4,18 @@ const WA = '华盛顿州'
 
 // Given list of dates of occurences get most recent occurence or return none
 const getMostRecentItem = (dateList) => {
-    const recent = dateList ? Object.values(dateList).slice(-1)[0] : 0
+    const recent = dateList || dateList === undefined ? Object.values(dateList).slice(-1)[0] : 0
     const item = recent ? recent : 0
     return item
 }
 
-const processState = (state) => {
+const getTotal = (dateList) => {
+    const total = dateList === undefined ? 0 : Object.values(dateList)
+        .reduce((agg, curValue) => agg + curValue, 0)
+    return total
+}
+
+const processState = (state, englishName) => {
     delete state['ENGLISH']
     delete state['confirmedCount']
     delete state['curedCount']
@@ -17,16 +23,23 @@ const processState = (state) => {
 
     const processed = Object.values(state).map(county => {
         const { ENGLISH, confirmedCount, curedCount, deadCount } = county
+        const displayName = `${ENGLISH} (${englishName})`
 
         const confirmedCountRecent = getMostRecentItem(confirmedCount)
+        const confirmedCountTotal = getTotal(confirmedCount)
         const curedCountRecent = getMostRecentItem(curedCount)
+        const curedCountTotal = getTotal(curedCount)
         const deadCountRecent = getMostRecentItem(deadCount)
+        const deadCountTotal = getTotal(deadCount)
 
         const processedCounty = Object.assign({}, {
-            ENGLISH,
+            ENGLISH: displayName,
             confirmedCount: confirmedCountRecent,
+            confirmedCountTotal,
             curedCount: curedCountRecent,
-            deadCount: deadCountRecent
+            curedCountTotal,
+            deadCount: deadCountRecent,
+            deadCountTotal
         })
 
         return processedCounty
@@ -38,7 +51,8 @@ export const processData = (json) => {
     const oregonData = json[america][OR]
     const washingtonData = json[america][WA]
     const dataStates = [oregonData, washingtonData]
-    const processedOregonData = processState(oregonData)
-    console.log(processedOregonData)
-    return processedOregonData
+
+    // process pacNW states and flatten list
+    const processedDataStates = dataStates.map(state => processState(state, state.ENGLISH)).flat(1)
+    return processedDataStates
 }
