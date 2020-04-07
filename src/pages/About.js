@@ -11,10 +11,10 @@ function About() {
         ABOUT US
       </div>
       <div className="Hashtag">
-        <b>#wereinthistogether</b>
+        <b>#weareinthistogether</b>
       </div>
-      <div>
-        <div className="Subheader" style={{paddingTop: '3em'}}>
+      <div style={{paddingBottom: '1em'}}>
+        <div className="Subheader" style={{paddingTop: '3em', paddingBottom: '1em'}}>
           Our Mission
         </div>
         <p className="Statement" style={{textAlign: 'center'}}>
@@ -28,7 +28,7 @@ function About() {
         </p>
       </div>
       <hr />
-      <div>
+      <div style={{paddingTop: '1.5em'}}>
         <div className="Subheader" style={{paddingBottom: '1em'}}>
           Our Values
         </div>

@@ -10,7 +10,7 @@ function Request() {
     <div className="Request">
       <img src={crc_heart} className="Request-logo" alt="logo" />
       <div className="Title">
-        SUBMIT A REQUEST
+        REQUEST HELP
       </div>
       <div className="Subheader">Need help during these times? Let us know how we can help you!</div>
       <hr style={{width: '25%'}}/>

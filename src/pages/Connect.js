@@ -18,7 +18,7 @@ function Connect() {
         <hr style={{width: '25%'}}/>
         <div>
           <img src={discord_logo} className="Social-logo" alt="Discord logo" />
-          <div className="Subheader">Join our team on Discord.</div>
+          <div className="Subheader">Join our community on Discord.</div>
           <a href="https://discord.gg/A4XqWGA"
             target="_blank"
             rel="noopener noreferrer"

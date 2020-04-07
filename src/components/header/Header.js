@@ -15,10 +15,10 @@ class Header extends Component {
           </Link>
         </span>
         <span className="HeaderRight">
-          <Link to="/request" style={{textDecoration: 'none'}}>REQUEST</Link>
-          <Link to="/about" style={{paddingLeft: '1em', textDecoration: 'none'}}>ABOUT</Link>
+          <Link to="/request" style={{textDecoration: 'none'}}>REQUEST HELP</Link>
+          <Link to="/about" style={{paddingLeft: '2em', textDecoration: 'none'}}>ABOUT</Link>
           {/*<Link to="/stats" style={{paddingLeft: '1em', textDecoration: 'none'}}>STATS</Link>*/}
-          <Link to="/connect" style={{paddingLeft: '1em', textDecoration: 'none'}}>CONNECT</Link>
+          <Link to="/connect" style={{paddingLeft: '2em', textDecoration: 'none'}}>CONNECT</Link>
           {/* <Link to="/donate">DONATE</Link>
           <Link to="/help">GET HELP</Link>
           <Link>Español</Link> */}
