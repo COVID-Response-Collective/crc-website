@@ -32,7 +32,7 @@ class Footer extends Component {
           <FA name="instagram fa-lg" className="Footer-Instagram"/>
         </a>
         <a className="FooterBtn"
-          href="mailto:crcpnw@gmail.com"
+          href="mailto:team@covidresponsecollective.org"
           target="_top"
           style={{backgroundColor: '#0077FF', color: 'white'}}>
           <FA name="envelope" className="Footer-Mail"/>

@@ -152,7 +152,7 @@ const RequestForm = () => {
       })
       .catch((error) => {
         console.log(error);
-        alert('We\'re sorry! We encountered an issue saving your request! Please try again soon or email us at crcpnw@gmail.com.');
+        alert('We\'re sorry! We encountered an issue saving your request! Please try again soon or email us at team@covidresponsecollective.org.');
       });
   }
 
