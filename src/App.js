@@ -37,10 +37,10 @@ function App() {
             </Route>
             {/*<Route path="/stats">
               <Stats />
-            </Route>
+            </Route>*/}
             <Route path="/donate">
               <Donate />
-            </Route>*/}
+            </Route>
             <Route path="/request">
               <Request />
             </Route>
