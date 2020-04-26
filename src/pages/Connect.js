@@ -53,7 +53,7 @@ function Connect() {
             </div>
           </a>*/}
           <div className="Subheader" style={{paddingTop: '1em'}}>Let us know how we can help you<br/>or if you want to help!</div>
-          <div className="Statement" style={{paddingTop: '1em', paddingBottom: '1em'}}>Email us at team@covidresponsecollective.org.</div>
+          <div className="Statement" style={{paddingTop: '1em', paddingBottom: '1em'}}>Email us at:<br/>team@covidresponsecollective.org</div>
         </div>
     </div>
   );
