@@ -4,9 +4,9 @@ cd "$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 
 VERSION=$(jq -r '.version' package.json)
 export VERSION
-target="dist/covid-website-${VERSION}.zip"
+target="dist/crc-website-${VERSION}.zip"
 container_target="/app/${target}"
-tag="covid-website:${VERSION}-builder"
+tag="crc-website:${VERSION}-builder"
 
 docker build --target builder --tag "${tag}" .
 

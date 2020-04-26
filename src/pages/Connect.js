@@ -44,7 +44,7 @@ function Connect() {
         <hr style={{width: '25%'}}/>
         <div>
           <div className="Hashtag" style={{paddingTop: '1em'}}>Contact Us</div>
-          {/*<a href="mailto:crcpnw@gmail.com"
+          {/*<a href="mailto:team@covidresponsecollective.org"
             target="_top"
             rel="noopener noreferrer"
             style={{color: 'white'}}>
