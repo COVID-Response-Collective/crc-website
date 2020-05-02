@@ -1,6 +1,6 @@
 {
   "name": "crc-website",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -26,7 +26,8 @@
     "start": "PORT=3000 react-scripts start",
     "build": "PORT=3001 react-scripts build",
     "test": "PORT=3001 react-scripts test --watchAll=false",
-    "eject": "PORT=3001 react-scripts eject"
+    "eject": "PORT=3001 react-scripts eject",
+    "release": "standard-version"
   },
   "eslintConfig": {
     "extends": "react-app"
