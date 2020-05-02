@@ -2,6 +2,7 @@
 set -e
 
 function run_build() {
+	yarn release
 	yarn build
 	/app/bin/package.sh
 }
