@@ -26,8 +26,7 @@
     "start": "PORT=3000 react-scripts start",
     "build": "PORT=3001 react-scripts build",
     "test": "PORT=3001 react-scripts test --watchAll=false",
-    "eject": "PORT=3001 react-scripts eject",
-    "release": "standard-version"
+    "eject": "PORT=3001 react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
