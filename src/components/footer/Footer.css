@@ -1,8 +1,22 @@
 .Footer {
-  padding: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer-Icons {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Footer-Version {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #adb5bd;
+  font-size: x-small;
+  padding-top: 1em;
 }
 
 .Footer-Social {

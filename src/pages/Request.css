@@ -1,0 +1,9 @@
+.Request {
+  text-align: center;
+  font: Roboto;
+}
+
+.Request-logo {
+  padding-top: 8em;
+  height: 15em;
+}

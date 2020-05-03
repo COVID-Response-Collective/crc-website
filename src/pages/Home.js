@@ -11,7 +11,7 @@ function Home() {
         COVID Response Collective
       </div>
       <div className="Hashtag">
-        #wereinthistogether
+        #weareinthistogether
       </div>
       <div className="Subheader" style={{paddingTop: '1em'}}>
         Serving the beautiful Pacific Northwest, USA.

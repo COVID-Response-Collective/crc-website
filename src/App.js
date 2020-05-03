@@ -12,7 +12,7 @@ import Home from 'pages/Home';
 import Connect from 'pages/Connect';
 import About from 'pages/About';
 import Donate from 'pages/Donate';
-import Help from 'pages/Help';
+import Request from 'pages/Request';
 import NotFound from 'pages/NotFound';
 import Stats from 'pages/Stats';
 
@@ -37,13 +37,13 @@ function App() {
             </Route>
             {/*<Route path="/stats">
               <Stats />
-            </Route>
+            </Route>*/}
             <Route path="/donate">
               <Donate />
             </Route>
-            <Route path="/help">
-              <Help />
-            </Route>*/}
+            <Route path="/request">
+              <Request />
+            </Route>
             <Route component={NotFound} />
           </Switch>
         </div>
