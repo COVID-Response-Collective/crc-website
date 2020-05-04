@@ -26,39 +26,37 @@ const style = {
 
 function Home() {
   return (
-    <Container>
-      <div className="Home">
-        <Image src={crc_logo} size="medium" className="App-logo" alt="logo" />
-        <Header
-          as="div"
-          content="COVID Response Collective"
-          style={style.text}
-          textAlign="center"
-        />
-        <div className="Hashtag">
-          #weareinthistogether
+    <div className="Home">
+      <Image src={crc_logo} size="medium" className="App-logo" alt="logo" />
+      <Header
+        as="div"
+        content="COVID Response Collective"
+        style={style.text}
+        textAlign="center"
+      />
+      <div className="Hashtag">
+        #weareinthistogether
         </div>
-        <div className="Subheader" style={{ paddingTop: '1em' }}>
-          Serving the beautiful Pacific Northwest, USA.
+      <div className="Subheader" style={{ paddingTop: '1em' }}>
+        Serving the beautiful Pacific Northwest, USA.
         </div>
-        <div className="Statement" style={{ paddingTop: '2em', textAlign: 'center' }}>
-          The CRC is a community movement for real conversation, scientific information,
-          and local resource exchange. We prize empathy and tangible actions in a time of
-          isolation and uncertainty as of a result of the COVID-19 pandemic.
+      <div className="Statement" style={{ paddingTop: '2em', textAlign: 'center' }}>
+        The CRC is a community movement for real conversation, scientific information,
+        and local resource exchange. We prize empathy and tangible actions in a time of
+        isolation and uncertainty as of a result of the COVID-19 pandemic.
         </div>
-        <div className="Statement" style={{ paddingTop: '1em', textAlign: 'center' }}>
-          We are Pacific Northwesterners, neighbors, families, healthcare workers, scientists, programmers, artists, and others helping one another.
+      <div className="Statement" style={{ paddingTop: '1em', textAlign: 'center' }}>
+        We are Pacific Northwesterners, neighbors, families, healthcare workers, scientists, programmers, artists, and others helping one another.
         </div>
-        <div className="Hashtag" style={{ paddingTop: '1em' }}>
-          Let's get through this, together.
+      <div className="Hashtag" style={{ paddingTop: '1em' }}>
+        Let's get through this, together.
         </div>
-        <Link to='/connect' style={{ color: 'white' }}>
-          <div className="ActionBtn">
-            Connect with Us
+      <Link to='/connect' style={{ color: 'white' }}>
+        <div className="ActionBtn">
+          Connect with Us
           </div>
-        </Link>
-      </div>
-    </Container>
+      </Link>
+    </div>
   );
 }
 

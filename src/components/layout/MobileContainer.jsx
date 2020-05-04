@@ -27,10 +27,10 @@ const MobileContainer = ({ children }) => {
                 visible={sidebarOpened}
                 style={{ font: 'bold medium Roboto' }}
                 >
-                    <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>How to Help</Menu.Item>
-                    <Menu.Item as={ Link } style={style.HeaderText} to='request'>Request Help</Menu.Item>
-                    <Menu.Item as={ Link } style={style.HeaderText} to='about'>About</Menu.Item>
-                    <Menu.Item as={ Link } style={style.HeaderText} to='connect'>Connect</Menu.Item>
+                    <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>HOW TO HELP</Menu.Item>
+                    <Menu.Item as={ Link } style={style.HeaderText} to='request'>REQUEST HELP</Menu.Item>
+                    <Menu.Item as={ Link } style={style.HeaderText} to='about'>ABOUT</Menu.Item>
+                    <Menu.Item as={ Link } style={style.HeaderText} to='connect'>CONNECT</Menu.Item>
                 </Sidebar>
 
                 <Sidebar.Pusher dimmed={sidebarOpened}>

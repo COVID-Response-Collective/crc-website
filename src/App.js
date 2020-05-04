@@ -19,34 +19,32 @@ import Stats from 'pages/Stats';
 
 function App() {
   return (
-    <div>
-      <Router>
-        <ResponsiveContainer>
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/connect">
-              <Connect />
-            </Route>
-            {/*<Route path="/stats">
+    <Router>
+      <ResponsiveContainer>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/connect">
+            <Connect />
+          </Route>
+          {/*<Route path="/stats">
               <Stats />
             </Route>*/}
-            <Route path="/how-to-help">
-              <HowToHelp />
-            </Route>
-            <Route path="/request">
-              <Request />
-            </Route>
-            <Route component={NotFound} />
-          </Switch>
-        </ResponsiveContainer>
-        <Footer />
-      </Router>
-    </div >
+          <Route path="/how-to-help">
+            <HowToHelp />
+          </Route>
+          <Route path="/request">
+            <Request />
+          </Route>
+          <Route component={NotFound} />
+        </Switch>
+      </ResponsiveContainer>
+      <Footer />
+    </Router>
 
   )
 }

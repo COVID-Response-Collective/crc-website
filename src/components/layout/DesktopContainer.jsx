@@ -23,9 +23,6 @@ const DesktopContainer = ({ children }) => {
               vertical
             >
                 <Menu
-                stackable
-                size='mini'
-                compact
                 borderless
                 fixed='top'
                 style={style.Header}>
@@ -33,10 +30,10 @@ const DesktopContainer = ({ children }) => {
                         <Image size='mini' src={crc_heart} className={style.HeaderHeart}/> COVID RESPONSE COLLECTIVE
                     </Menu.Item>
                     <Menu.Menu size='small' position='right'>
-                        <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>How to Help</Menu.Item>
-                        <Menu.Item as={ Link } style={style.HeaderText} to='request'>Request Help</Menu.Item>
-                        <Menu.Item as={ Link } style={style.HeaderText} to='about'>About</Menu.Item>
-                        <Menu.Item as={ Link } style={style.HeaderText} to='connect'>Connect</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>HOW TO HELP</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='request'>REQUEST HELP</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='about'>ABOUT</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='connect'>CONNECT</Menu.Item>
                     </Menu.Menu>
                 </Menu>
             </Segment>
