@@ -11,6 +11,43 @@ import {
 import { getWidth } from '../../utils/layout'
 import crc_heart from '../../assets/images/CRC_HEART_RD_T.svg';
 
+const style = {
+  Header: {
+    font: 'medium Roboto',
+    letterSpacing: 0,
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'space-between',
+    padding: '2em',
+    position: 'fixed',
+    fontWeight: 'bold',
+    backgroundColor: 'white',
+    boxShadow: '0 2px 10px #cccccc',
+    zIndex: 10
+  }
+  
+  // .Header a {
+  //   color: #000000;
+  //   opacity: 1;
+  //   text-decoration: unset;
+  // }
+  
+  // HeaderLeft: {
+  //   alignSelf: flex-start;
+  // }
+  
+  // HeaderHeart: {
+  //   height: 1.5em;
+  //   vertical-align: bottom;
+  // }
+  
+  // HeaderRight: {
+  //   alignSelf: flex-end;
+  //   paddingRight: 3em;
+  // }
+  
+}
+
 class DesktopContainer extends Component {
     state = {};
   

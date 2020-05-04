@@ -107,7 +107,7 @@ textarea {
   color: white;
   border-color: #333333;
   border-radius: 2em;
-  width: 20vw;
+  width: auto;
   font-size: 15pt;
   display: inline-block;
   text-align: center;
