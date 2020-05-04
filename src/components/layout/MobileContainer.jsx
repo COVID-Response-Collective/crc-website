@@ -10,6 +10,7 @@ import {
 } from "semantic-ui-react";
 import { getWidth } from '../../utils/layout'
 import crc_heart from '../../assets/images/CRC_HEART_RD_T.svg';
+import { style } from './styles'
 
 const MobileContainer = ({ children }) => {
     const [sidebarOpened, setSidebarOpened] = useState(false)
@@ -24,12 +25,12 @@ const MobileContainer = ({ children }) => {
                 onHide={() => setSidebarOpened(sidebarOpened => !sidebarOpened)}
                 vertical
                 visible={sidebarOpened}
-                style={{ font: 'medium Roboto' }}
+                style={{ font: 'bold medium Roboto' }}
                 >
-                    <Menu.Item as={ Link } to='how-to-help'>Donate</Menu.Item>
-                    <Menu.Item as={ Link } to='request'>Request Help</Menu.Item>
-                    <Menu.Item as={ Link } to='about'>About</Menu.Item>
-                    <Menu.Item as={ Link } to='connect'>Connect</Menu.Item>
+                    <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>How to Help</Menu.Item>
+                    <Menu.Item as={ Link } style={style.HeaderText} to='request'>Request Help</Menu.Item>
+                    <Menu.Item as={ Link } style={style.HeaderText} to='about'>About</Menu.Item>
+                    <Menu.Item as={ Link } style={style.HeaderText} to='connect'>Connect</Menu.Item>
                 </Sidebar>
 
                 <Sidebar.Pusher dimmed={sidebarOpened}>
@@ -42,7 +43,7 @@ const MobileContainer = ({ children }) => {
                         <Menu.Item onClick={() => setSidebarOpened(sidebarOpened => !sidebarOpened)}>
                             <Icon name="sidebar" />
                         </Menu.Item>
-                        <Menu.Item position="right" as={ Link } to='/'>
+                        <Menu.Item position="right" style={style.HeaderText} as={ Link } to='/'>
                             <Image size='mini' src={crc_heart} /> COVID RESPONSE COLLECTIVE
                         </Menu.Item>
                     </Menu>

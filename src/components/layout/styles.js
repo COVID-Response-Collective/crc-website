@@ -16,24 +16,13 @@ export const style = {
         color: '#000000'
     },
 
-    // .Header a {
-    //   color: #000000;
-    //   opacity: 1;
-    //   text-decoration: unset;
-    // }
-
-    // HeaderLeft: {
-    //   alignSelf: flex-start;
-    // }
-
     HeaderHeart: {
         height: '1.5em',
         verticalAlign: 'bottom'
-    }
+    },
 
-    // HeaderRight: {
-    //   alignSelf: flex-end;
-    //   paddingRight: 3em;
-    // }
+    HeaderText: {
+        fontWeight: '700'
+    }
 
 }

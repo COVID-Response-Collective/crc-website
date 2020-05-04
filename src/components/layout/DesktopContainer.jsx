@@ -29,14 +29,14 @@ const DesktopContainer = ({ children }) => {
                 borderless
                 fixed='top'
                 style={style.Header}>
-                    <Menu.Item as={ Link } to='/'>
+                    <Menu.Item as={ Link } to='/' style={style.HeaderText}>
                         <Image size='mini' src={crc_heart} className={style.HeaderHeart}/> COVID RESPONSE COLLECTIVE
                     </Menu.Item>
                     <Menu.Menu size='small' position='right'>
-                        <Menu.Item as={ Link } to='how-to-help'>Donate</Menu.Item>
-                        <Menu.Item as={ Link } to='request'>Request Help</Menu.Item>
-                        <Menu.Item as={ Link } to='about'>About</Menu.Item>
-                        <Menu.Item as={ Link } to='connect'>Connect</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>How to Help</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='request'>Request Help</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='about'>About</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='connect'>Connect</Menu.Item>
                     </Menu.Menu>
                 </Menu>
             </Segment>
