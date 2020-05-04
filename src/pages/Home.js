@@ -28,7 +28,7 @@ function Home() {
   return (
     <Container>
       <div className="Home">
-        <Image src={crc_logo} size="large" className="App-logo" alt="logo" />
+        <Image src={crc_logo} size="medium" className="App-logo" alt="logo" />
         <Header
           as="div"
           content="COVID Response Collective"

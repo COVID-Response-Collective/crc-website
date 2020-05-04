@@ -1,7 +1,6 @@
 import React from 'react';
 import './Request.css';
 import { Container, Segment, Responsive } from 'semantic-ui-react'
-import { getWidth } from '../utils/layout'
 import crc_heart from '../assets/images/CRC_HEART_RD_T.svg'
 
 // components
@@ -19,7 +18,7 @@ function Request() {
         <hr style={{ width: '25%' }} />
         {/*<RequestForm />*/}
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDSwYQe4bbMCNhAUrG5BHaeaw-aky5AVAMTUgUAefzsxOmag/viewform?embedded=true" width={getWidth} height="1002" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDSwYQe4bbMCNhAUrG5BHaeaw-aky5AVAMTUgUAefzsxOmag/viewform?embedded=true" width='100%' height="1002" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
 
       </Container>
     </div>
