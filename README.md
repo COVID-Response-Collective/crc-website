@@ -13,8 +13,12 @@
 7. Auto sort Health Status of personal health/location to real-time GIS of OR/WA maps
 8. Create a ledger of requests, write to database
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## GitFlow
+
+We utilize the GitFlow model/toolkit for deploying new versions of our website.<br />
+Learn more about GitFlow here: [GitFlow](https://datasift.github.io/gitflow/)
 
 ## Available Scripts
 
