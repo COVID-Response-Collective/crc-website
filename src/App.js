@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import './App.css';
-import Header from 'components/header/Header';
+import ResponsiveContainer from 'components/layout/ResponsiveContainer'
 import Footer from 'components/footer/Footer';
 import Home from 'pages/Home';
 import Connect from 'pages/Connect';
@@ -20,11 +20,8 @@ import Stats from 'pages/Stats';
 function App() {
   return (
     <div>
-      <header className="App App-header">
-      </header>
       <Router>
-        <Header />
-        <div>
+        <ResponsiveContainer>
           <Switch>
             <Route exact path="/">
               <Home />
@@ -46,7 +43,7 @@ function App() {
             </Route>
             <Route component={NotFound} />
           </Switch>
-        </div>
+        </ResponsiveContainer>
         <Footer />
       </Router>
     </div >
