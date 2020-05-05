@@ -5,7 +5,6 @@ import {
     Icon,
     Menu,
     Responsive,
-    Segment,
     Sidebar,
 } from "semantic-ui-react";
 import { getWidth } from '../../utils/layout'
@@ -34,11 +33,6 @@ const MobileContainer = ({ children }) => {
                 </Sidebar>
 
                 <Sidebar.Pusher dimmed={sidebarOpened}>
-                    <Segment
-                        textAlign="center"
-                        vertical
-                        style={{ minHeight: 80, padding: "1em 0em" }}
-                    >
                     <Menu fixed='top' pointing secondary size="large" style={{ font: 'medium Roboto' }}>
                         <Menu.Item onClick={() => setSidebarOpened(sidebarOpened => !sidebarOpened)}>
                             <Icon name="sidebar" />
@@ -47,7 +41,6 @@ const MobileContainer = ({ children }) => {
                             <Image size='mini' src={crc_heart} /> COVID RESPONSE COLLECTIVE
                         </Menu.Item>
                     </Menu>
-                </Segment>
                 {children}
                 </Sidebar.Pusher>
             </Responsive>
