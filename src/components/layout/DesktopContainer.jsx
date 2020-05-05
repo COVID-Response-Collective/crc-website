@@ -27,7 +27,7 @@ const DesktopContainer = ({ children }) => {
                 fixed='top'
                 style={style.Header}>
                     <Menu.Item as={ Link } to='/' style={style.HeaderText}>
-                        <Image size='mini' src={crc_heart} className={style.HeaderHeart}/> COVID RESPONSE COLLECTIVE
+                        <Image src={crc_heart} style={style.HeaderHeart}/> COVID RESPONSE COLLECTIVE
                     </Menu.Item>
                     <Menu.Menu size='small' position='right'>
                         <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>HOW TO HELP</Menu.Item>

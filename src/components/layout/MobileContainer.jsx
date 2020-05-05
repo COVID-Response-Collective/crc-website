@@ -35,10 +35,10 @@ const MobileContainer = ({ children }) => {
                 <Sidebar.Pusher dimmed={sidebarOpened}>
                     <Menu fixed='top' pointing secondary size="large" style={{ font: 'medium Roboto' }}>
                         <Menu.Item onClick={() => setSidebarOpened(sidebarOpened => !sidebarOpened)}>
-                            <Icon name="sidebar" />
+                            <Icon size='large' name="sidebar" />
                         </Menu.Item>
                         <Menu.Item position="right" style={style.HeaderText} as={ Link } to='/'>
-                            <Image size='mini' src={crc_heart} /> COVID RESPONSE COLLECTIVE
+                            <Image size='mini' rounded src={crc_heart} /> COVID RESPONSE COLLECTIVE
                         </Menu.Item>
                     </Menu>
                 {children}

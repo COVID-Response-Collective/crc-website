@@ -3,6 +3,7 @@ export const style = {
         font: 'medium Roboto',
         letterSpacing: 0,
         width: '100%',
+        height: '80px',
         display: 'flex',
         justifyContent: 'space-between',
         padding: '2em',
