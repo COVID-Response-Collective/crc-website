@@ -13,14 +13,14 @@ function About() {
       <div className="Hashtag">
         <b>#weareinthistogether</b>
       </div>
-	  <div style={{paddingTop: '2em'}}>
-	    <iframe width="560" height="315" src="https://www.youtube.com/embed/ol3pjyGQszk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  </div>
-      <div style={{paddingBottom: '1em'}}>
-        <div className="Subheader" style={{paddingTop: '3em', paddingBottom: '1em'}}>
+      <div style={{ paddingTop: '2em' }}>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ol3pjyGQszk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div style={{ paddingBottom: '1em' }}>
+        <div className="Subheader" style={{ paddingTop: '3em', paddingBottom: '1em' }}>
           Our Mission
         </div>
-        <p className="Statement" style={{textAlign: 'center'}}>
+        <p className="Statement" style={{ textAlign: 'center' }}>
           COVID Response Collective (CRC) is a group that prizes empathy, fostering community and science literacy during this time of unprecedented crisis. We aim to connect Northwesterners with resources, community and trained professionals despite COVID-19. We are a group of healthcare workers, scientists, programmers, artists and, most importantly, compassionate citizens of Oregon and Washington trying to help each other out in this time.
         </p>
         <p className="Statement">
@@ -31,28 +31,28 @@ function About() {
         </p>
       </div>
       <hr />
-      <div style={{paddingTop: '1.5em'}}>
-        <div className="Subheader" style={{paddingBottom: '1em'}}>
+      <div style={{ paddingTop: '1.5em' }}>
+        <div className="Subheader" style={{ paddingBottom: '1em' }}>
           Our Values
         </div>
-        <p className="Statement" style={{textAlign: 'center'}}>
-          <b>Empathy</b><br/>
+        <p className="Statement" style={{ textAlign: 'center' }}>
+          <b>Empathy</b><br />
           Celebrating humanity despite crisis.
         </p>
-        <p className="Statement" style={{textAlign: 'center'}}>
-          <b>Community</b><br/>
+        <p className="Statement" style={{ textAlign: 'center' }}>
+          <b>Community</b><br />
           Crafting ways to socialize while practicing social distancing.
         </p>
-        <p className="Statement" style={{textAlign: 'center'}}>
-          <b>Science Literacy</b><br/>
+        <p className="Statement" style={{ textAlign: 'center' }}>
+          <b>Science Literacy</b><br />
           Communicating science-based information about the COVID-19 pandemic in accessible ways.
         </p>
-        <p className="Statement" style={{textAlign: 'center'}}>
-          <b>Resourcefulness</b><br/>
+        <p className="Statement" style={{ textAlign: 'center' }}>
+          <b>Resourcefulness</b><br />
           Connecting supplies and skills to folks in need.
         </p>
       </div>
-      <Link to='/connect' style={{color: 'white'}}>
+      <Link to='/connect' style={{ color: 'white' }}>
         <div className="ActionBtn">
           Connect with Us
         </div>

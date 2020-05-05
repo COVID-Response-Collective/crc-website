@@ -12,8 +12,8 @@ function Donate() {
         HOW TO HELP
       </div>
       <div className="Subheader">Let's help each other out to get through these tough times together.</div>
-      <hr style={{width: '25%'}}/>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBeYlwN1hApORdNTQCdEY7uCQfHQBEUX3gSXHmfOYCPGwCQQ/viewform?embedded=true" width="640" height="802" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <hr style={{ width: '25%' }} />
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBeYlwN1hApORdNTQCdEY7uCQfHQBEUX3gSXHmfOYCPGwCQQ/viewform?embedded=true" width='100%' height="802" frameborder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
     </div>
   );
 }
