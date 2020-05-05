@@ -37,7 +37,7 @@ function Home() {
       <div className="Hashtag">
         #weareinthistogether
         </div>
-      <div className="Subheader" style={{ paddingTop: '1em' }}>
+      <div className="Subheader" style={{ paddingTop: '1em', textAlign: 'center' }}>
         Serving the beautiful Pacific Northwest, USA.
         </div>
       <div className="Statement" style={{ paddingTop: '2em', textAlign: 'center' }}>
@@ -48,7 +48,7 @@ function Home() {
       <div className="Statement" style={{ paddingTop: '1em', textAlign: 'center' }}>
         We are Pacific Northwesterners, neighbors, families, healthcare workers, scientists, programmers, artists, and others helping one another.
         </div>
-      <div className="Hashtag" style={{ paddingTop: '1em' }}>
+      <div className="Hashtag" style={{ paddingTop: '1em', textAlign: 'center' }}>
         Let's get through this, together.
         </div>
       <Link to='/connect' style={{ color: 'white' }}>

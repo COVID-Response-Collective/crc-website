@@ -26,6 +26,7 @@ const MobileContainer = ({ children }) => {
                 visible={sidebarOpened}
                 style={{ font: 'bold medium Roboto' }}
                 >
+                    <Menu.Item as={ Link } style={style.HeaderText} to='/'>HOME</Menu.Item>
                     <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>HOW TO HELP</Menu.Item>
                     <Menu.Item as={ Link } style={style.HeaderText} to='request'>REQUEST HELP</Menu.Item>
                     <Menu.Item as={ Link } style={style.HeaderText} to='about'>ABOUT</Menu.Item>
