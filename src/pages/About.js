@@ -14,7 +14,7 @@ function About() {
         <b>#weareinthistogether</b>
       </div>
       <div style={{ paddingTop: '2em' }}>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ol3pjyGQszk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ol3pjyGQszk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       <div style={{ paddingBottom: '1em' }}>
         <div className="Subheader" style={{ paddingTop: '3em', paddingBottom: '1em' }}>
