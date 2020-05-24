@@ -24,13 +24,18 @@ class Footer extends Component {
           </a>
           <a className="FooterBtn" href="https://www.facebook.com/COVIDResponseCollective/">
             <img className="Footer-Social" src={facebook_logo} alt="Footer Facebook logo" />
-            {/*<img src={instagram_logo} className="Footer-Social" alt="Footer Instagram logo" />*/}
           </a>
           <a className="FooterBtn"
             href="https://www.instagram.com/covidresponsecollective/"
             target="_top"
             style={{ backgroundColor: '#CCCCCC', color: 'black' }}>
             <FA name="instagram fa-lg" className="Footer-Instagram" />
+          </a>
+          <a className="FooterBtn"
+            href="https://www.linkedin.com/company/covidresponsecollective/"
+            target="_top"
+            style={{ backgroundColor: '#2867B2', color: 'white' }}>
+            <FA name="linkedin fa-lg" className="Footer-LinkedIn" />
           </a>
           <a className="FooterBtn"
             href="mailto:team@covidresponsecollective.org"

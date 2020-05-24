@@ -28,14 +28,13 @@
   padding-top: 5px;
 }
 
-.Footer-Instagram {
+.Footer-Instagram .Footer-LinkedIn {
   vertical-align: middle;
   line-height: 30px;
 }
 
-.Footer-Instagram:before {
+.Footer-Instagram:before .Footer-LinkedIn:before {
   vertical-align: middle;
-
 }
 
 .Footer-Mail {

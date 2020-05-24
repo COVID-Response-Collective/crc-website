@@ -3,6 +3,7 @@ import './Connect.css';
 import crc_heart from '../assets/images/CRC_HEART_RD_T.svg';
 import discord_logo from '../assets/images/Discord-Logo_Wordmark-Color.svg';
 import facebook_logo from '../assets/images/f_logo_RGB-Blue_1024.png';
+import instagram_logo from '../assets/images/IG-Glyph-Logo.png';
 
 // components
 import ContactForm from '../components/ContactForm'
@@ -38,6 +39,19 @@ function Connect() {
             style={{color: 'white'}}>
             <div className="ActionBtn">
               Check Us Out
+            </div>
+          </a>
+        </div>
+        <hr style={{width: '25%'}}/>
+        <div>
+          <img src={instagram_logo} className="Social-logo" alt="Instagram logo" />
+          <div className="Subheader" style={{paddingTop: '1em'}}>Follow our journey on Instagram.</div>
+          <a href="https://www.instagram.com/covidresponsecollective/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{color: 'white'}}>
+            <div className="ActionBtn">
+              Follow Us
             </div>
           </a>
         </div>
