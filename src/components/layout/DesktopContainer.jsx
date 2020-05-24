@@ -30,7 +30,8 @@ const DesktopContainer = ({ children }) => {
                         <Image src={crc_heart} style={style.HeaderHeart}/> COVID RESPONSE COLLECTIVE
                     </Menu.Item>
                     <Menu.Menu size='small' position='right'>
-                        <Menu.Item as={ Link } style={style.HeaderText} to='how-to-help'>HOW TO HELP</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='volunteer'>VOLUNTEER</Menu.Item>
+                        <Menu.Item as={ Link } style={style.HeaderText} to='donate'>DONATE</Menu.Item>
                         <Menu.Item as={ Link } style={style.HeaderText} to='request'>REQUEST HELP</Menu.Item>
                         <Menu.Item as={ Link } style={style.HeaderText} to='about'>ABOUT</Menu.Item>
                         <Menu.Item as={ Link } style={style.HeaderText} to='connect'>CONNECT</Menu.Item>

@@ -11,7 +11,8 @@ import Footer from 'components/footer/Footer';
 import Home from 'pages/Home';
 import Connect from 'pages/Connect';
 import About from 'pages/About';
-import HowToHelp from 'pages/HowToHelp';
+import Volunteer from 'pages/Volunteer'
+import Donate from 'pages/Donate';
 import Request from 'pages/Request';
 import NotFound from 'pages/NotFound';
 import Stats from 'pages/Stats';
@@ -34,8 +35,11 @@ function App() {
           {/*<Route path="/stats">
               <Stats />
             </Route>*/}
-          <Route path="/how-to-help">
-            <HowToHelp />
+          <Route path="/volunteer">
+            <Volunteer />
+          </Route>
+          <Route path="/donate">
+            <Donate />
           </Route>
           <Route path="/request">
             <Request />
