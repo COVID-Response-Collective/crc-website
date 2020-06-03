@@ -33,7 +33,8 @@ const MobileContainer = ({ children }) => {
             style={{ font: 'bold medium Roboto' }}
             >
                 <Menu.Item as={ Link } style={style.HeaderText} onClick={() => handleLinkClick('/')}>HOME</Menu.Item>
-                <Menu.Item as={ Link } style={style.HeaderText} onClick={() => handleLinkClick('/how-to-help')}>HOW TO HELP</Menu.Item>
+                <Menu.Item as={ Link } style={style.HeaderText} onClick={() => handleLinkClick('/donate')}>DONATE</Menu.Item>
+                <Menu.Item as={ Link } style={style.HeaderText} onClick={() => handleLinkClick('/volunteer')}>VOLUNTEER</Menu.Item>
                 <Menu.Item as={ Link } style={style.HeaderText} onClick={() => handleLinkClick('/request')}>REQUEST HELP</Menu.Item>
                 <Menu.Item as={ Link } style={style.HeaderText} onClick={() => handleLinkClick('/about')}>ABOUT</Menu.Item>
                 <Menu.Item as={ Link } style={style.HeaderText} onClick={() => handleLinkClick('/connect')}>CONNECT</Menu.Item>
