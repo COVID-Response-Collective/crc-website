@@ -20,7 +20,7 @@
     "react-scripts": "3.4.0",
     "sass": "^1.26.3",
     "semantic-ui-react": "^0.88.2",
-    "standard-version": "^7.1.0",
+    "standard-version": "^8.0.1",
     "styled-components": "^5.0.1"
   },
   "scripts": {
